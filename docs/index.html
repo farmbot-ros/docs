@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Chapter 1 - farmbot</title>
+        <title>Introduction - farmbot</title>
 
 
         <!-- Custom HTML head -->
@@ -152,13 +152,22 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="chapter-1"><a class="header" href="#chapter-1">Chapter 1</a></h1>
+                        <h1 id="farmbot"><a class="header" href="#farmbot">FARMBOT</a></h1>
+<p align="center">
+  <img src="farmbot.svg" alt="FarmBot" width="200"/>
+</p>
+<p>Farmbot is a ROS2 package that provides a high-level interface to control a robot in a farm environment. The package is designed to be modular and can be easily extended to support new hardware and sensors. The package is built on top of the ROS2 framework.</p>
+<p>When said it is modular, it means that the package is divided into several sub-packages, each of which is responsible for a specific task. For example, the <code>localisation</code> package is responsible for localising the robot in the farm environment, the <code>navigation</code> package is responsible for navigating the robot in the farm environment, and so on.</p>
+<p>The cool thing about this package is that any of the sub-packages can be used independently of the others. For example, if you only want to use the <code>localisation</code> package, you can do so without having to use the other packages. And in addition, you can substitute any of the sub-packages with your own implementation or other existing implementations as long as they adhere to the interface defined by the package.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
 
+                            <a rel="next prefetch" href="localisation/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
 
                         <div style="clear: both"></div>
                     </nav>
@@ -167,6 +176,9 @@
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
 
+                    <a rel="next prefetch" href="localisation/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
             </nav>
 
         </div>
