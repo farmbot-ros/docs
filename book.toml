@@ -1,0 +1,6 @@
+[book]
+authors = ["Trim Bresilla"]
+language = "en"
+multilingual = false
+src = "src"
+title = "farmbot"
